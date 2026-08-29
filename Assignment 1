@@ -1,0 +1,24 @@
+#List in python
+students=["Ankita","Anushka","Sakshi","Aarya"]
+students.append("Riya")
+students.insert(1,"Yash")
+students.remove("Sakshi")
+students.pop(3)
+students.sort()
+
+
+#Tuple in python 
+students=("Ankita","Anushka","Sakshi","Aarya")
+students.count("Ankita")
+students.index("Sakshi")
+len(students)
+"Ankita" in students
+
+
+#Dictionary in python 
+students={1:"Ankita",2:"Anushka",3:"Sakshi",4:"Aarya"}
+students.keys()
+students.values()
+students.items()
+students.update({2:Swarangi})
+students.pop(2)
