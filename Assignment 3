@@ -1,0 +1,7 @@
+a=int(input("Enter firsts side length= "))
+b=int(input("Enter second side length= "))
+c=int(input("Enter third side length= "))
+if a**2+b**2==c**2 or a**2+c**2==b**2 or b**2+c**2==a**2 :
+  print("It is a right angled triangle")
+else:
+  print("It is not right angled triangle") 
